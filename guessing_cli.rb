@@ -16,7 +16,7 @@ def run_guessing_game()
       input = gets.chomp()
     end
   end
-
+end
   puts "Goodbye!"
 end
 
