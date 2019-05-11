@@ -1,7 +1,7 @@
 # Code your solution here!
 def run_guessing_game
-	puts "/Guess a number betwen 1 and ."
-	roll = 1+rand(6)
+	puts "/Guess a number betwen 1 and 50."
+	roll = 1 + rand(50)
 	user_input = gets.chomp.to_s
     if user_input == roll 
     	return "You guessed the correct number!"
@@ -12,8 +12,6 @@ def run_guessing_game
     else
       puts "Invalid input "
     end 
-    
-  
 end 
 
 run_guessing_game
