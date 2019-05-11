@@ -20,6 +20,5 @@ end
   puts "Goodbye!"
 end
 
-run_guessing_game
 
 
